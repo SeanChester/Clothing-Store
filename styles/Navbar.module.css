@@ -1,5 +1,28 @@
 .navHeader {
   width: 100vw;
   height: 10vh;
-  background-color: dodgerblue;
+  background-color: white;
+  border-bottom: 1.5px solid black;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contentLinks {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.faSearchIcon {
+  cursor: pointer;
+}
+.ulForLinks {
+  display: flex;
+  list-style-type: none;
+}
+.ulForLinks > li {
+  padding-right: 10px;
 }
