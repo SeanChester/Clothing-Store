@@ -38,6 +38,9 @@ const Navbar = () => {
            <li>
             <Link href="/shoes"><a>Shoes</a></Link>
            </li>
+           <li>
+            <Link href="/skate"><a>Skate</a></Link>
+           </li>
           </ul>
         </div>
     </div>
