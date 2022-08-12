@@ -5,3 +5,9 @@
   background-color: black;
   position: relative;
 }
+
+.main {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+}

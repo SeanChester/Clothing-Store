@@ -13,16 +13,19 @@ const Navbar = () => {
          <Link href="/"><a>Ephesus Clothing</a></Link>
         </div>
         <div className={styles.searchBarContainer}>
-          <input type="text" /> <button>Search</button>
+          <input className={styles.searchBar} 
+                 type="text"
+                 placeholder='What are you looking for?' /> 
+          <button className={styles.searchBarBtn}><FaSearch className={styles.searchIcon}/></button>
         </div>
         <div className={styles.headerRightIcons}>
           <ul>
+            <li><Link href="/tracking"><a className={styles.trackOrder}>TRACK MY ORDER</a></Link></li>
             <li><CgProfile /></li>
             <li><Link href="/shoppingCart"><span><div className={styles.shoppingCartCount}>2</div><FaShoppingCart /></span></Link></li>
-            <li><Link href="/about"><a>About</a></Link></li>
           </ul>
         </div>
-      </div>
+        </div>
     </div>
     <div className={styles.contentLinks}>
           <ul className={styles.ulForLinks}>
